@@ -6,8 +6,8 @@ using ClosedXML.Excel;
 
 namespace PsExcelData
 {
-    [Cmdlet(VerbsCommunications.Read, "Column")]
-    public class ReadColumn : PSCmdlet
+    [Cmdlet(VerbsCommunications.Read, "ExcelColumn")]
+    public class ExcelColumn : PSCmdlet
     {
 
         [Parameter]
